@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wordHelper", "wordHelper\wordHelper.csproj", "{18D48FEC-9AD2-4C93-8FB5-259CF5C64F4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18D48FEC-9AD2-4C93-8FB5-259CF5C64F4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18D48FEC-9AD2-4C93-8FB5-259CF5C64F4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18D48FEC-9AD2-4C93-8FB5-259CF5C64F4D}.Debug|x64.ActiveCfg = Debug|x64
+		{18D48FEC-9AD2-4C93-8FB5-259CF5C64F4D}.Debug|x64.Build.0 = Debug|x64
+		{18D48FEC-9AD2-4C93-8FB5-259CF5C64F4D}.Debug|x86.ActiveCfg = Debug|x86
+		{18D48FEC-9AD2-4C93-8FB5-259CF5C64F4D}.Debug|x86.Build.0 = Debug|x86
+		{18D48FEC-9AD2-4C93-8FB5-259CF5C64F4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18D48FEC-9AD2-4C93-8FB5-259CF5C64F4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18D48FEC-9AD2-4C93-8FB5-259CF5C64F4D}.Release|x64.ActiveCfg = Release|x64
+		{18D48FEC-9AD2-4C93-8FB5-259CF5C64F4D}.Release|x64.Build.0 = Release|x64
+		{18D48FEC-9AD2-4C93-8FB5-259CF5C64F4D}.Release|x86.ActiveCfg = Release|x86
+		{18D48FEC-9AD2-4C93-8FB5-259CF5C64F4D}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F048B3B-E43F-445A-851B-3FE1579B39FA}
+	EndGlobalSection
+EndGlobal

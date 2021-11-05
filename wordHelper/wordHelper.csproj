@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Platforms>AnyCPU;x86;x64</Platforms>
+    <UserSecretsId>0994be58-20df-4a0c-bd79-a83b2150b618</UserSecretsId>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>bin\Debug\netcoreapp3.1\</OutputPath>
+    <DocumentationFile>bin\Debug\netcoreapp3.1\wordHelper.xml</DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutputPath>bin\Debug\netcoreapp3.1\</OutputPath>
+    <DocumentationFile>bin\Debug\netcoreapp3.1\wordHelper.xml</DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Kingsoft.Office.Interop.Wpsapi">
+      <HintPath>..\..\ConsoleApp2\ConsoleApp2\bin\Debug\netcoreapp2.1\Kingsoft.Office.Interop.Wpsapi.dll</HintPath>
+      <EmbedInteropTypes>true</EmbedInteropTypes>
+    </Reference>
+  </ItemGroup>
+
+
+</Project>
